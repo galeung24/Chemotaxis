@@ -26,7 +26,7 @@ void draw(){
  background (0,0,0);
  for(int i=0;i< bra.length;i++){
    bra[i].walk();
-   bra[i].show();
+   bra[i].show();}
  }
  void mousePressed(){
  for(int i=0;i<bra.length;i++){
